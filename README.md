@@ -4,10 +4,10 @@ Hi 👋 My name is Jiger Patel
 Electronics Engineering Student
 --------------------
 
-I have hands-on experience with Programming languages Majorly in C# , Python , Javascript.
-I have fimilarities with Different IoT , Web Technologies alongside a few experience in Linux Environment.
-I am currently focused on expanding my knowledge in Full Stack Development , Mastering Version Control and Product Building.
-I am passionate about learning new technologies and growing my ablility to develop real-world applications.
+* I have hands-on experience with Programming languages Majorly in C# , Python , Javascript.
+* I have fimilarities with Different IoT , Web Technologies alongside a few experience in Linux Environment.
+* I am currently focused on expanding my knowledge in Full Stack Development , Mastering Version Control and Product Building.
+* I am passionate about learning new technologies and growing my ablility to develop real-world applications.
 
 *   🌍  I'm based in Mumbai
 *   ✉️  You can contact me at [jigerprog10@outlook.com](mailto:jigerprog10@outlook.com)
