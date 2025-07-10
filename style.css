@@ -1,0 +1,393 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+.container {
+    background-color: rgb(20, 20, 20);
+    color: rgb(230, 230, 230);
+}
+
+nav {
+    height: 3em;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0em;
+    padding: 0 0.5em;
+    background: rgb(20, 20, 20);
+    box-shadow: 0 30px 30px rgba(36, 13, 167, 0.322);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.hamburger-btn {
+    border-radius: 1rem;
+    height: 2em;
+    width: 2.5em;
+    font-size: 1em;
+    padding: 12px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    color: rgb(204, 204, 204);
+}
+
+main {
+    padding: 1em;
+    padding-top: 4em;
+    height: fit-content;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 10vh;
+    display: block;
+    background: rgba(0, 0, 0, 0.027);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    height: 50vh;
+}
+
+.profilepic {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.151);
+    border: 1px solid rgba(0, 0, 0, 0.041)
+}
+
+.content,
+.image {
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+
+.image {
+    padding: 2%;
+    padding-top: 3em;
+}
+
+.txt-l {
+    font-size: 1.5em;
+}
+
+.s-left {
+    text-align: left !important;
+}
+
+.gradient {
+    background: #710ba1;
+    background: linear-gradient(75deg, rgb(16, 13, 223) 0%, rgb(21, 175, 214) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.cap {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.name {
+    font-size: 1.4em;
+    color: hsl(234, 88%, 60%);
+}
+
+.accent {
+    color: hsl(234, 88%, 60%);
+}
+
+h1 {
+    color: hsl(234, 88%, 50%);
+}
+
+h2 {
+    color: hsl(234, 88%, 60%);
+}
+
+h3 {
+    color: hsl(234, 88%, 70%);
+}
+
+h4 {
+    color: hsl(234, 88%, 80%);
+}
+
+h5 {
+    color: hsl(234, 88%, 90%);
+}
+
+h6 {
+    color: hsl(234, 88%, 100%);
+}
+
+.skill-bucket {
+    box-sizing: border-box;
+    border-radius: 1rem;
+    /* border:1px solid hsl(234, 88%, 60%); */
+    /* padding:0.5em; */
+    display: flex;
+    gap: 0.3em 0.2em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill {
+    border: 1px solid hsl(234, 69%, 40%);
+    align-items: center;
+    padding: 0.5em 0.6em;
+    border-radius: 1rem;
+    display: flex;
+    gap: 0.3em;
+}
+
+.skill-python {
+    border: 1px solid rgb(48, 105, 152);
+    color: rgb(48, 105, 152);
+
+    i {
+        color: rgb(255, 212, 59);
+    }
+}
+
+.skill-html {
+    border: 1px solid rgb(227, 76, 38);
+    color: rgb(227, 76, 38);
+
+    i {
+        color: rgb(227, 76, 38);
+    }
+}
+
+.skill-css {
+    border: 1px solid hsl(204, 69%, 40%);
+    color: hsl(204, 69%, 40%);
+
+    i {
+        color: hsl(204, 69%, 40%);
+    }
+}
+
+.skill-js {
+    border: 1px solid rgb(240, 219, 79);
+    color: rgb(240, 219, 79);
+
+    i {
+        color: rgb(240, 219, 79);
+    }
+}
+
+.skill-node {
+    border: 1px solid hsl(118, 70%, 32%);
+    color: hsl(118, 70%, 32%);
+
+    i {
+        color: hsl(118, 70%, 32%);
+    }
+}
+
+.skill-php {
+    border: 1px solid rgb(119, 123, 179);
+    color: rgb(119, 123, 179);
+
+    i {
+        color: rgb(119, 123, 179);
+    }
+}
+
+.skill-sql {
+    border: 1px solid hsl(54, 69%, 40%);
+    color: hsl(54, 69%, 40%);
+
+    i {
+        color: hsl(54, 69%, 40%);
+    }
+}
+
+.skill-git {
+    border: 1px solid hsl(10, 87%, 56%);
+    color: hsl(10, 87%, 56%);
+
+    i {
+        color: hsl(10, 87%, 56%);
+    }
+}
+
+.skill-github {
+    border: 1px solid hsl(0, 0%, 85%);
+    color: hsl(0, 0%, 85%);
+
+    i {
+        color: hsl(0, 0%, 85%);
+    }
+}
+
+.skill-docker {
+    border: 1px solid rgba(29, 99, 237, 1);
+    color: rgba(29, 99, 237, 1);
+
+    i {
+        color: rgba(29, 99, 237, 1);
+    }
+}
+
+.skill-java {
+    border: 1px solid rgb(0, 115, 150);
+    color: rgb(0, 115, 150);
+
+    i {
+        color: rgb(0, 115, 150);
+    }
+}
+
+.skill-vue {
+    border: 1px solid rgb(65, 184, 131);
+    color: rgb(52, 73, 94);
+
+    i {
+        color: rgb(65, 184, 131);
+    }
+}
+
+.heading {
+    text-decoration: none;
+    color: hsl(234, 88%, 70%);
+    font-size: 1.5em;
+}
+
+.contact {
+    text-decoration: none;
+}
+
+#contacts {
+    display: block;
+
+    a {
+        display: block;
+    }
+}
+
+@media(width > 980px) {
+    body {
+        font-size: 1.5em !important;
+    }
+
+    nav {
+        height: 2em;
+        box-sizing: border-box;
+        position: sticky;
+        top: 0em;
+        padding: 0 0.5em;
+        background: rgb(20, 20, 20);
+        box-shadow: 0 30px 30px rgba(36, 13, 167, 0.322);
+        backdrop-filter: blur(10.2px);
+        -webkit-backdrop-filter: blur(10.2px);
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5em;
+    }
+
+    .hamburger-btn {
+        display: none;
+    }
+
+    main {
+        padding: 4em;
+        padding-top: 4em;
+        height: fit-content;
+    }
+
+
+    section {
+        width: 100%;
+        margin-bottom: 30vh;
+        display: flex;
+        background: rgba(0, 0, 0, 0.027);
+        border-radius: 1rem;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);
+        border: 1px solid rgba(0, 0, 0, 0.041);
+        height: 40vh;
+    }
+
+    .profilepic {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 30px 30px rgba(0, 0, 0, 0.151);
+        border: 1px solid rgba(0, 0, 0, 0.041);
+    }
+
+    .content {
+        width: 70%;
+    }
+
+    .image {
+        width: 30%;
+    }
+
+    .f-line {
+        font-size: 2em;
+    }
+
+    .s-line {
+        font-size: 1.5em;
+    }
+
+    .image {
+        padding: 2%;
+        padding-top: 3em;
+    }
+
+    #skills {
+        display: block;
+    }
+
+    .skill {
+        font-size: 0.7em;
+        height: 1.5em;
+        align-items: center;
+        padding: 0.5em 1em;
+        border-radius: 1rem;
+        display: flex;
+        gap: 0.3em;
+    }
+
+    #certifications {
+        display: block;
+    }
+
+    .nav-link {
+        display: flex;
+    }
+}
+
+.skill-bucket{
+    perspective: 1000px;
+}
+.skill {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.1s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
