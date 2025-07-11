@@ -19,3 +19,13 @@ cards.forEach((card) => {
     card.style.transform = `rotateX(0deg) rotateY(0deg)`;
   });
 });
+
+
+
+  ScrollReveal().reveal('.reveal', {
+    distance: '40px',
+    duration: 800,
+    easing: 'ease-in-out',
+    origin: 'bottom',
+    interval: 200
+  });
