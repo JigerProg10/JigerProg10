@@ -9,15 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <nav>
-            <div class="brand">JacK</div>
-            <button class="hamburger-btn"><i class="fa fa-bars"></i></button>
-            <div class="nav-items" style="display: none;">
-                <a class="nav-link">About</a>
+        <nav id="nav">
+            <div class="topnav">
+                <div class="brand">JacK</div>
+                <button id="hamburger-btn" onclick="toggleNavlinks()"><i class="fa"></i></button>
             </div>
+            <div class="nav-items" id="nav-items">
+                <a href="#self"class="nav-link">About</a>
+                <a href="#skills"class="nav-link">Skills</a>
+                <a href="#certifications"class="nav-link">Certifications</a>
+                <a href="#contacts"class="nav-link">Contact</a>
+            
+            </div>
+            
         </nav>
         <main>
-            <section id="self" title="about me" class="reveal">
+            <div class="space"  title="empty div to fix nav and main spaces"></div>
+            <section title="about me" id="self" class="reveal">
                 <div class="content s-left">
                     <div class="f-line">Hi , my name is <span class="name" title="name : Jiger Patel">Jiger Patel</span></div>
                    <p class="s-line">I <em>design</em> and develop <span class="accent" title="things i do but text changes">Things</span></p>
@@ -25,7 +33,8 @@
                 <div class="image"><img src="profile.jpeg" alt="myimage" class="profilepic"></div>
                 
             </section>
-            <section id="skills" title="skills" class="reveal">
+            <div class="space"  title="empty div to fix nav and main spaces"></div>
+            <section title="skills" id="skills" class="reveal skills">
                 <h2>Skills</h2>
                 <div class="skill-bucket">
                     <div class="skill skill-html" title="html5"><i class="fa-brands fa-html5"></i> Html</div>
@@ -48,7 +57,8 @@
                 </div>
                 
             </section>
-            <section id="certifications" title="certifications" class="reveal">
+            <div class="space"  title="empty div to fix nav and main spaces"></div>
+            <section title="certifications" id="certifications" class="reveal certifications">
                 <h2>Certifications</h2>
                 <br/>
                 <div class="certificate">
@@ -66,11 +76,23 @@
                 </div>
 
             </section>
-            <section id="contacts" title="contacts" class="reveal">
+            <div class="space"  title="empty div to fix nav and main spaces"></div>
+            <section title="contacts"  id="contacts" class="reveal contacts">
                 <h2>Contact & Socials</h2>
                 <a href="#" class="contact" title="email">Email</a>
                 <a href="#" class="contact" title="github">GitHub</a>
                 <a href="#" class="contact" title="linkedin">Linkedin</a>
+            </section>
+            <section title="work in progress"  id="workinprogress" class="reveal workinprogress block">
+                <h2>Work in Progress</h2>
+                <ul class="worklist">
+                    <li><em>Footer</em></li>
+                    <li><em>More Semantics</em></li>
+                    <li><em>Projects Publish and Linking...</em></li>
+                    <li><em>Learning in Progress Technology</em></li>
+                    <li><em>Cleaning code and repository</em></li>
+                    <li><em>More Details...</em></li>
+                </ul>
             </section>
         </main>
         

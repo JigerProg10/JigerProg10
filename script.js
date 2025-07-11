@@ -29,3 +29,51 @@ cards.forEach((card) => {
     origin: 'bottom',
     interval: 200
   });
+
+let NavStatus = false;
+const btnHamburger = document.getElementById('hamburger-btn');
+const navItems = document.getElementById('nav-items');
+navItems.classList.add('hide');
+btnHamburger.classList.add('fa-bars');
+
+function switchIcon(toIcon) {
+  btn.style.opacity = '0';
+
+  setTimeout(() => {
+    btn.classList.remove('fa-bars', 'fa-times');
+    btn.classList.add(toIcon);
+    btn.style.opacity = '1';
+  }, 300);
+}
+
+
+
+function toggleNavlinks() {
+  if(window.innerWidth > 980){
+    NavStatus = !NavStatus;
+    console.log(`navbar toggled: ${NavStatus}`);
+    if (!NavStatus) {
+      navItems.classList.add('hide');
+      switchIcon('fa-bars');
+    } else {
+      navItems.classList.remove('hide');
+      switchIcon('fa-times');
+    }
+  }
+  
+
+  
+}
+let lastScrollY = window.scrollY;
+const navbar = document.getElementById('nav');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > lastScrollY) {
+    // Scrolling down
+    navbar.classList.add('hidden');
+  } else {
+    // Scrolling up
+    navbar.classList.remove('hidden');
+  }
+  lastScrollY = window.scrollY;
+});
